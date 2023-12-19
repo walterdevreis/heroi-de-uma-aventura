@@ -32,7 +32,7 @@ Ao final deve se exibir uma mensagem:
 - Git
 
 # Como executar o projeto no terminal
-- node main.js
+node main.js
 
 # Autor
 Walter Reis
