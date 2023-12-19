@@ -8,5 +8,7 @@ class heroi{
         this.tipo = tipo 
     }
 
-
+    atacar(){
+        
+    }
 }
