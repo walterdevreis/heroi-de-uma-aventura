@@ -1,7 +1,5 @@
-
-
 class heroi{
-    
+
     constructor(nome, idade, tipo){
         this.nome = nome 
         this.idade = idade
@@ -15,7 +13,11 @@ class heroi{
             console.log(`O ${this.tipo} atacou usando espada`)
         else if(this.tipo === "monge")
             console.log(`O ${this.tipo} atacou usando artes marciais`)
-        else if(this.tipo === "ninha")
+        else if(this.tipo === "ninja")
             console.log(`O ${this.tipo} atacou usando shuriken`)
     }
 }
+
+let guerreiro = new heroi("Walter", 25, "guerreiro")
+
+guerreiro.atacar()
